@@ -160,6 +160,6 @@ docker run \
     --env="DISPLAY=${DISPLAY}" \
     --env="USER_ID=$USER_ID" \
     --privileged \
-     -p 5900:5900 \
+     -p 5910:5910 \
     $RUNTIME \
-    autoware_dre_vins:0.1
+    vins_opencv3
